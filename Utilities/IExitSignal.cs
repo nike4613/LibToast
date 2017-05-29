@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LibToast
+namespace Utilities
 {
-    public class Class1
+    public interface IExitSignal
     {
+        event EventHandler Exit;
     }
 }
